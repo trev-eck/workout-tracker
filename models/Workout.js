@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
+//workout model that contains an array of exercise objects
 const WorkoutSchema = new Schema({
     
     name: {
