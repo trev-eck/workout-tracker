@@ -12,7 +12,7 @@ const ExerciseSchema = new Schema({
         type: String,
     },
     distance: {
-        type: Decimal128,
+        type: Number,
     },
     duration: {
         type: Number,
