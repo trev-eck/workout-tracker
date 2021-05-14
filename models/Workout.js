@@ -39,10 +39,6 @@ const WorkoutSchema = new Schema({
         type: Number,
         default: 0
     }
-    // exercise: {
-    //     type: Schema.Types.ObjectId,
-    //     ref: "Exercise"
-    // }
 });
 
 const Workout = mongoose.model("Workout", WorkoutSchema);
